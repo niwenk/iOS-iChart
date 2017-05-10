@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19F3FEC1EC15794004342BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F3FEB1EC15794004342BD /* main.m */; };
+		A19F3FEF1EC15794004342BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F3FEE1EC15794004342BD /* AppDelegate.m */; };
+		A19F3FF21EC15794004342BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F3FF11EC15794004342BD /* ViewController.m */; };
+		A19F3FF51EC15794004342BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19F3FF31EC15794004342BD /* Main.storyboard */; };
+		A19F3FF71EC15794004342BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19F3FF61EC15794004342BD /* Assets.xcassets */; };
+		A19F3FFA1EC15794004342BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19F3FF81EC15794004342BD /* LaunchScreen.storyboard */; };
+		A19F40B51EC2D6EC004342BD /* MAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40501EC2D6EC004342BD /* MAChartView.m */; };
+		A19F40EE1EC2D6EC004342BD /* MAChartBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40941EC2D6EC004342BD /* MAChartBorder.m */; };
+		A19F40EF1EC2D6EC004342BD /* MAChartColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40961EC2D6EC004342BD /* MAChartColor.m */; };
+		A19F40F01EC2D6EC004342BD /* MAChartCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40981EC2D6EC004342BD /* MAChartCoordinate.m */; };
+		A19F40F11EC2D6EC004342BD /* MAChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F409A1EC2D6EC004342BD /* MAChartData.m */; };
+		A19F40F21EC2D6EC004342BD /* MAChartFontweight.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F409C1EC2D6EC004342BD /* MAChartFontweight.m */; };
+		A19F40F31EC2D6EC004342BD /* MAChartFootnote.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F409E1EC2D6EC004342BD /* MAChartFootnote.m */; };
+		A19F40F41EC2D6EC004342BD /* MAChartJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40A01EC2D6EC004342BD /* MAChartJson.m */; };
+		A19F40F51EC2D6EC004342BD /* MAChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40A21EC2D6EC004342BD /* MAChartLabel.m */; };
+		A19F40F61EC2D6EC004342BD /* MAChartLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40A41EC2D6EC004342BD /* MAChartLegend.m */; };
+		A19F40F71EC2D6EC004342BD /* MAChartListener.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40A61EC2D6EC004342BD /* MAChartListener.m */; };
+		A19F40F81EC2D6EC004342BD /* MAChartMinilabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40A81EC2D6EC004342BD /* MAChartMinilabel.m */; };
+		A19F40F91EC2D6EC004342BD /* MAChartOption.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40AA1EC2D6EC004342BD /* MAChartOption.m */; };
+		A19F40FA1EC2D6EC004342BD /* MAChartScale.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40AC1EC2D6EC004342BD /* MAChartScale.m */; };
+		A19F40FB1EC2D6EC004342BD /* MAChartSubOption.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40AE1EC2D6EC004342BD /* MAChartSubOption.m */; };
+		A19F40FC1EC2D6EC004342BD /* MAChartTip.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40B01EC2D6EC004342BD /* MAChartTip.m */; };
+		A19F40FD1EC2D6EC004342BD /* MAChartTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F40B21EC2D6EC004342BD /* MAChartTitle.m */; };
+		A19F41021EC2D6FE004342BD /* css in Resources */ = {isa = PBXBuildFile; fileRef = A19F40FE1EC2D6FE004342BD /* css */; };
+		A19F41031EC2D6FE004342BD /* iChart.html in Resources */ = {isa = PBXBuildFile; fileRef = A19F40FF1EC2D6FE004342BD /* iChart.html */; };
+		A19F41041EC2D6FE004342BD /* jq-ui in Resources */ = {isa = PBXBuildFile; fileRef = A19F41001EC2D6FE004342BD /* jq-ui */; };
+		A19F41051EC2D6FE004342BD /* js in Resources */ = {isa = PBXBuildFile; fileRef = A19F41011EC2D6FE004342BD /* js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A19F3FE71EC15794004342BD /* iOS-iChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-iChart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19F3FEB1EC15794004342BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A19F3FED1EC15794004342BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A19F3FEE1EC15794004342BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A19F3FF01EC15794004342BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A19F3FF11EC15794004342BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A19F3FF41EC15794004342BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A19F3FF61EC15794004342BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19F3FF91EC15794004342BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A19F3FFB1EC15794004342BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19F404F1EC2D6EC004342BD /* MAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartView.h; sourceTree = "<group>"; };
+		A19F40501EC2D6EC004342BD /* MAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartView.m; sourceTree = "<group>"; };
+		A19F40931EC2D6EC004342BD /* MAChartBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartBorder.h; sourceTree = "<group>"; };
+		A19F40941EC2D6EC004342BD /* MAChartBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartBorder.m; sourceTree = "<group>"; };
+		A19F40951EC2D6EC004342BD /* MAChartColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartColor.h; sourceTree = "<group>"; };
+		A19F40961EC2D6EC004342BD /* MAChartColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartColor.m; sourceTree = "<group>"; };
+		A19F40971EC2D6EC004342BD /* MAChartCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartCoordinate.h; sourceTree = "<group>"; };
+		A19F40981EC2D6EC004342BD /* MAChartCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartCoordinate.m; sourceTree = "<group>"; };
+		A19F40991EC2D6EC004342BD /* MAChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartData.h; sourceTree = "<group>"; };
+		A19F409A1EC2D6EC004342BD /* MAChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartData.m; sourceTree = "<group>"; };
+		A19F409B1EC2D6EC004342BD /* MAChartFontweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartFontweight.h; sourceTree = "<group>"; };
+		A19F409C1EC2D6EC004342BD /* MAChartFontweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartFontweight.m; sourceTree = "<group>"; };
+		A19F409D1EC2D6EC004342BD /* MAChartFootnote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartFootnote.h; sourceTree = "<group>"; };
+		A19F409E1EC2D6EC004342BD /* MAChartFootnote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartFootnote.m; sourceTree = "<group>"; };
+		A19F409F1EC2D6EC004342BD /* MAChartJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartJson.h; sourceTree = "<group>"; };
+		A19F40A01EC2D6EC004342BD /* MAChartJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartJson.m; sourceTree = "<group>"; };
+		A19F40A11EC2D6EC004342BD /* MAChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartLabel.h; sourceTree = "<group>"; };
+		A19F40A21EC2D6EC004342BD /* MAChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartLabel.m; sourceTree = "<group>"; };
+		A19F40A31EC2D6EC004342BD /* MAChartLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartLegend.h; sourceTree = "<group>"; };
+		A19F40A41EC2D6EC004342BD /* MAChartLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartLegend.m; sourceTree = "<group>"; };
+		A19F40A51EC2D6EC004342BD /* MAChartListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartListener.h; sourceTree = "<group>"; };
+		A19F40A61EC2D6EC004342BD /* MAChartListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartListener.m; sourceTree = "<group>"; };
+		A19F40A71EC2D6EC004342BD /* MAChartMinilabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartMinilabel.h; sourceTree = "<group>"; };
+		A19F40A81EC2D6EC004342BD /* MAChartMinilabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartMinilabel.m; sourceTree = "<group>"; };
+		A19F40A91EC2D6EC004342BD /* MAChartOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartOption.h; sourceTree = "<group>"; };
+		A19F40AA1EC2D6EC004342BD /* MAChartOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartOption.m; sourceTree = "<group>"; };
+		A19F40AB1EC2D6EC004342BD /* MAChartScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartScale.h; sourceTree = "<group>"; };
+		A19F40AC1EC2D6EC004342BD /* MAChartScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartScale.m; sourceTree = "<group>"; };
+		A19F40AD1EC2D6EC004342BD /* MAChartSubOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartSubOption.h; sourceTree = "<group>"; };
+		A19F40AE1EC2D6EC004342BD /* MAChartSubOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartSubOption.m; sourceTree = "<group>"; };
+		A19F40AF1EC2D6EC004342BD /* MAChartTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartTip.h; sourceTree = "<group>"; };
+		A19F40B01EC2D6EC004342BD /* MAChartTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartTip.m; sourceTree = "<group>"; };
+		A19F40B11EC2D6EC004342BD /* MAChartTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartTitle.h; sourceTree = "<group>"; };
+		A19F40B21EC2D6EC004342BD /* MAChartTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAChartTitle.m; sourceTree = "<group>"; };
+		A19F40B41EC2D6EC004342BD /* MAChartUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAChartUtils.h; sourceTree = "<group>"; };
+		A19F40FE1EC2D6FE004342BD /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		A19F40FF1EC2D6FE004342BD /* iChart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iChart.html; sourceTree = "<group>"; };
+		A19F41001EC2D6FE004342BD /* jq-ui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jq-ui"; sourceTree = "<group>"; };
+		A19F41011EC2D6FE004342BD /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19F3FE41EC15794004342BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19F3FDE1EC15794004342BD = {
+			isa = PBXGroup;
+			children = (
+				A19F3FE91EC15794004342BD /* iOS-iChart */,
+				A19F3FE81EC15794004342BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19F3FE81EC15794004342BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19F3FE71EC15794004342BD /* iOS-iChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19F3FE91EC15794004342BD /* iOS-iChart */ = {
+			isa = PBXGroup;
+			children = (
+				A19F404D1EC2D6EC004342BD /* MAiChart */,
+				A19F3FED1EC15794004342BD /* AppDelegate.h */,
+				A19F3FEE1EC15794004342BD /* AppDelegate.m */,
+				A19F3FF01EC15794004342BD /* ViewController.h */,
+				A19F3FF11EC15794004342BD /* ViewController.m */,
+				A19F3FF31EC15794004342BD /* Main.storyboard */,
+				A19F3FF61EC15794004342BD /* Assets.xcassets */,
+				A19F3FF81EC15794004342BD /* LaunchScreen.storyboard */,
+				A19F3FFB1EC15794004342BD /* Info.plist */,
+				A19F3FEA1EC15794004342BD /* Supporting Files */,
+			);
+			path = "iOS-iChart";
+			sourceTree = "<group>";
+		};
+		A19F3FEA1EC15794004342BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19F3FEB1EC15794004342BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A19F404D1EC2D6EC004342BD /* MAiChart */ = {
+			isa = PBXGroup;
+			children = (
+				A19F404E1EC2D6EC004342BD /* iChartView */,
+				A19F40511EC2D6EC004342BD /* src */,
+				A19F40921EC2D6EC004342BD /* them */,
+				A19F40B31EC2D6EC004342BD /* utils */,
+			);
+			path = MAiChart;
+			sourceTree = "<group>";
+		};
+		A19F404E1EC2D6EC004342BD /* iChartView */ = {
+			isa = PBXGroup;
+			children = (
+				A19F404F1EC2D6EC004342BD /* MAChartView.h */,
+				A19F40501EC2D6EC004342BD /* MAChartView.m */,
+			);
+			path = iChartView;
+			sourceTree = "<group>";
+		};
+		A19F40511EC2D6EC004342BD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A19F40FE1EC2D6FE004342BD /* css */,
+				A19F40FF1EC2D6FE004342BD /* iChart.html */,
+				A19F41001EC2D6FE004342BD /* jq-ui */,
+				A19F41011EC2D6FE004342BD /* js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A19F40921EC2D6EC004342BD /* them */ = {
+			isa = PBXGroup;
+			children = (
+				A19F40A91EC2D6EC004342BD /* MAChartOption.h */,
+				A19F40AA1EC2D6EC004342BD /* MAChartOption.m */,
+				A19F40931EC2D6EC004342BD /* MAChartBorder.h */,
+				A19F40941EC2D6EC004342BD /* MAChartBorder.m */,
+				A19F40951EC2D6EC004342BD /* MAChartColor.h */,
+				A19F40961EC2D6EC004342BD /* MAChartColor.m */,
+				A19F40971EC2D6EC004342BD /* MAChartCoordinate.h */,
+				A19F40981EC2D6EC004342BD /* MAChartCoordinate.m */,
+				A19F40991EC2D6EC004342BD /* MAChartData.h */,
+				A19F409A1EC2D6EC004342BD /* MAChartData.m */,
+				A19F409B1EC2D6EC004342BD /* MAChartFontweight.h */,
+				A19F409C1EC2D6EC004342BD /* MAChartFontweight.m */,
+				A19F409D1EC2D6EC004342BD /* MAChartFootnote.h */,
+				A19F409E1EC2D6EC004342BD /* MAChartFootnote.m */,
+				A19F409F1EC2D6EC004342BD /* MAChartJson.h */,
+				A19F40A01EC2D6EC004342BD /* MAChartJson.m */,
+				A19F40A11EC2D6EC004342BD /* MAChartLabel.h */,
+				A19F40A21EC2D6EC004342BD /* MAChartLabel.m */,
+				A19F40A31EC2D6EC004342BD /* MAChartLegend.h */,
+				A19F40A41EC2D6EC004342BD /* MAChartLegend.m */,
+				A19F40A51EC2D6EC004342BD /* MAChartListener.h */,
+				A19F40A61EC2D6EC004342BD /* MAChartListener.m */,
+				A19F40A71EC2D6EC004342BD /* MAChartMinilabel.h */,
+				A19F40A81EC2D6EC004342BD /* MAChartMinilabel.m */,
+				A19F40AB1EC2D6EC004342BD /* MAChartScale.h */,
+				A19F40AC1EC2D6EC004342BD /* MAChartScale.m */,
+				A19F40AD1EC2D6EC004342BD /* MAChartSubOption.h */,
+				A19F40AE1EC2D6EC004342BD /* MAChartSubOption.m */,
+				A19F40AF1EC2D6EC004342BD /* MAChartTip.h */,
+				A19F40B01EC2D6EC004342BD /* MAChartTip.m */,
+				A19F40B11EC2D6EC004342BD /* MAChartTitle.h */,
+				A19F40B21EC2D6EC004342BD /* MAChartTitle.m */,
+			);
+			path = them;
+			sourceTree = "<group>";
+		};
+		A19F40B31EC2D6EC004342BD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A19F40B41EC2D6EC004342BD /* MAChartUtils.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19F3FE61EC15794004342BD /* iOS-iChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19F3FFE1EC15794004342BD /* Build configuration list for PBXNativeTarget "iOS-iChart" */;
+			buildPhases = (
+				A19F3FE31EC15794004342BD /* Sources */,
+				A19F3FE41EC15794004342BD /* Frameworks */,
+				A19F3FE51EC15794004342BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-iChart";
+			productName = "iOS-iChart";
+			productReference = A19F3FE71EC15794004342BD /* iOS-iChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19F3FDF1EC15794004342BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.sh.n22;
+				TargetAttributes = {
+					A19F3FE61EC15794004342BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M8H3LJ9M9;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A19F3FE21EC15794004342BD /* Build configuration list for PBXProject "iOS-iChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A19F3FDE1EC15794004342BD;
+			productRefGroup = A19F3FE81EC15794004342BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19F3FE61EC15794004342BD /* iOS-iChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19F3FE51EC15794004342BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F41021EC2D6FE004342BD /* css in Resources */,
+				A19F3FFA1EC15794004342BD /* LaunchScreen.storyboard in Resources */,
+				A19F41031EC2D6FE004342BD /* iChart.html in Resources */,
+				A19F41051EC2D6FE004342BD /* js in Resources */,
+				A19F41041EC2D6FE004342BD /* jq-ui in Resources */,
+				A19F3FF71EC15794004342BD /* Assets.xcassets in Resources */,
+				A19F3FF51EC15794004342BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19F3FE31EC15794004342BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F3FF21EC15794004342BD /* ViewController.m in Sources */,
+				A19F40F01EC2D6EC004342BD /* MAChartCoordinate.m in Sources */,
+				A19F40F11EC2D6EC004342BD /* MAChartData.m in Sources */,
+				A19F40F91EC2D6EC004342BD /* MAChartOption.m in Sources */,
+				A19F3FEF1EC15794004342BD /* AppDelegate.m in Sources */,
+				A19F40F21EC2D6EC004342BD /* MAChartFontweight.m in Sources */,
+				A19F40FC1EC2D6EC004342BD /* MAChartTip.m in Sources */,
+				A19F40FD1EC2D6EC004342BD /* MAChartTitle.m in Sources */,
+				A19F40F41EC2D6EC004342BD /* MAChartJson.m in Sources */,
+				A19F40EF1EC2D6EC004342BD /* MAChartColor.m in Sources */,
+				A19F40F31EC2D6EC004342BD /* MAChartFootnote.m in Sources */,
+				A19F3FEC1EC15794004342BD /* main.m in Sources */,
+				A19F40FB1EC2D6EC004342BD /* MAChartSubOption.m in Sources */,
+				A19F40F51EC2D6EC004342BD /* MAChartLabel.m in Sources */,
+				A19F40F71EC2D6EC004342BD /* MAChartListener.m in Sources */,
+				A19F40F61EC2D6EC004342BD /* MAChartLegend.m in Sources */,
+				A19F40B51EC2D6EC004342BD /* MAChartView.m in Sources */,
+				A19F40FA1EC2D6EC004342BD /* MAChartScale.m in Sources */,
+				A19F40EE1EC2D6EC004342BD /* MAChartBorder.m in Sources */,
+				A19F40F81EC2D6EC004342BD /* MAChartMinilabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A19F3FF31EC15794004342BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19F3FF41EC15794004342BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A19F3FF81EC15794004342BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19F3FF91EC15794004342BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19F3FFC1EC15794004342BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A19F3FFD1EC15794004342BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19F3FFF1EC15794004342BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M8H3LJ9M9;
+				INFOPLIST_FILE = "iOS-iChart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n22.iOS-iChart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "360ec9b2-24fe-48b8-a7aa-cef5f3ca799a";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProvision;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A19F40001EC15794004342BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M8H3LJ9M9;
+				INFOPLIST_FILE = "iOS-iChart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.n22.iOS-iChart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "360ec9b2-24fe-48b8-a7aa-cef5f3ca799a";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProvision;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19F3FE21EC15794004342BD /* Build configuration list for PBXProject "iOS-iChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F3FFC1EC15794004342BD /* Debug */,
+				A19F3FFD1EC15794004342BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19F3FFE1EC15794004342BD /* Build configuration list for PBXNativeTarget "iOS-iChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F3FFF1EC15794004342BD /* Debug */,
+				A19F40001EC15794004342BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19F3FDF1EC15794004342BD /* Project object */;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZjT-Cv-1NS" customClass="MAChartView">
+                                <rect key="frame" x="0.0" y="220" width="1024" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uq9-nx-C3K">
+                                <rect key="frame" x="401" y="85" width="100" height="30"/>
+                                <state key="normal" title="柱状图"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hX8-zZ-Knq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gkl-5b-keH">
+                                <rect key="frame" x="571" y="85" width="100" height="30"/>
+                                <state key="normal" title="饼状图"/>
+                                <connections>
+                                    <action selector="btnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sq1-40-1vt"/>
+                                    <action selector="pieBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kPZ-Ew-Zae"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZjT-Cv-1NS" secondAttribute="bottom" id="SrM-L6-kdA"/>
+                            <constraint firstItem="ZjT-Cv-1NS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vzz-g0-ctn"/>
+                            <constraint firstItem="Gkl-5b-keH" firstAttribute="leading" secondItem="uq9-nx-C3K" secondAttribute="trailing" constant="70" id="a9Z-C3-Mh9"/>
+                            <constraint firstItem="uq9-nx-C3K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="381" id="afE-tB-9gu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gkl-5b-keH" secondAttribute="trailing" constant="333" id="bOF-yP-Xjq"/>
+                            <constraint firstItem="uq9-nx-C3K" firstAttribute="baseline" secondItem="Gkl-5b-keH" secondAttribute="baseline" id="dMH-gb-A3e"/>
+                            <constraint firstItem="ZjT-Cv-1NS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="dvR-o9-xKB"/>
+                            <constraint firstItem="Gkl-5b-keH" firstAttribute="width" secondItem="uq9-nx-C3K" secondAttribute="width" id="ikH-pJ-Yuc"/>
+                            <constraint firstItem="Gkl-5b-keH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="pU2-HI-H8j"/>
+                            <constraint firstAttribute="trailing" secondItem="ZjT-Cv-1NS" secondAttribute="trailing" id="xdW-V1-HXt"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="charView" destination="ZjT-Cv-1NS" id="Mss-em-JW6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
